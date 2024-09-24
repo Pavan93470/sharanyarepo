@@ -21,6 +21,7 @@ public class AppiumConnection {
 		AppiumDriver driver = new AndroidDriver(appiumServerURL, capabilities);
 
 		System.out.println("App launched successfully!");
+		System.out.println("123");
 
 		driver.quit();
 	}
